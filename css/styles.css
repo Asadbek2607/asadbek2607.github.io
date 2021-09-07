@@ -104,6 +104,10 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
+
+.page{
+  overflow: hidden;
+}
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -211,7 +215,7 @@ Navbar
 }
 
 .nav-header img{
-	width: 30%;
+	width: 40%;
 }
 .nav-btn {
   background: transparent;
@@ -917,9 +921,11 @@ Footer
   color: var(--clr-primary-10);
 }
 .footer p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-transform: capitalize;
 }
+
+
 /*
 ===============
 Single Page
